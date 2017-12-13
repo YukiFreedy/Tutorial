@@ -17,7 +17,7 @@ public class test {
     public void testRestar(){
         assert test.restar(4,3,2) == -1;
         assert test.restar(10, 4, 2) == 4;
-        assert test.restar(-10, 2, -4) == -12;
+        assert test.restar(-10, 2, -4) == -8;
     }
 
     @Test
@@ -51,7 +51,7 @@ public class test {
     }
 
     @Test
-    public void testConcatenarLista(String[] lista1, String[] lista2){
+    public void testConcatenarLista(){
         String [] lista = new String[3];
         lista[0] = "platano";
         lista[1] = "manzana";
