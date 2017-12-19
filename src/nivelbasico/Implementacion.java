@@ -10,7 +10,8 @@ public class Implementacion implements toImplement{
      */
     @Override
     public int multiplicar(int x, int y) {
-        return 0;
+        int resultado = x * y ;
+        return resultado;
     }
 
     /**
@@ -22,7 +23,7 @@ public class Implementacion implements toImplement{
      */
     @Override
     public int restar(int x, int y, int z) {
-        return 0;
+        return x - y - z ;
     }
 
     /**
@@ -33,7 +34,8 @@ public class Implementacion implements toImplement{
      */
     @Override
     public boolean esMayorA(double x, double y) {
-        return false;
+        boolean esMayorA = x > y;
+        return esMayorA ;
     }
 
     /**
@@ -44,7 +46,10 @@ public class Implementacion implements toImplement{
      */
     @Override
     public int distanciaEntre(int x, int y) {
-        return 0;
+        int distancia = x - y;
+        if (distancia< 0)
+            return y - x;
+        return distancia;
     }
 
     /**
